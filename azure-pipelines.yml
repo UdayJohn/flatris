@@ -19,5 +19,7 @@ steps:
 
 - script: |
     npm install
+    npm update -g core-js@3
+    npm outdated
     npm run build
   displayName: 'npm install and build'
